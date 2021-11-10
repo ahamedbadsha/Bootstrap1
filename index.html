@@ -26,21 +26,22 @@
 
         </div>
       </div>
-    </section class="sservic2">
+</section class="sservic2">
     <div class="container c_dib">
+
       <!--form-->
       <form class="row g-3 needs-validation" novalidate>
          <!--first name-->
          <div class="col-4">
-           <label for="first_name" class="form-label">First Name</label>
-           <input type="text" class="form-control first_name" name="first_name" id="first_name" placeholder="Enter your first name" required>
-         </div>
-         <div class="valid-feedback">
-           Looks Good!
-         </div>
-         <div class="invalid-feedback">
-           Enter your first name
-         </div>
+            <label for="first_name" class="form-label">First Name</label>
+            <input type="text" class="form-control first_name" name="first_name" id="first_name" placeholder="Enter your first name" required>
+             <div class="valid-feedback">
+             Looks Good!
+            </div>
+            <div class="invalid-feedback">
+             Enter your first name
+            </div>
+        </div>
          <!--first name-->
 
           <!--last name-->
@@ -48,14 +49,14 @@
            <label for="last_name" class="form-label">Last Name</label>
 
            <input type="text" class="form-control last_name" name="last_name" id="last_name" placeholder="Enter your last name" required>
-         </div>
 
-         <div class="valid-feedback">
-           Looks Good!
-         </div>
-         <div class="invalid-feedback">
-           Enter your last name
-         </div>
+            <div class="valid-feedback">
+             Looks Good!
+            </div>
+            <div class="invalid-feedback">
+              Enter your last name
+            </div>
+          </div>
          <!--last name-->
 
          <!--user name-->
@@ -64,14 +65,13 @@
            <div class="input-group has-validation">
              <span class="input-group-text" id="inputGroupPrepend">@</span>
              <input type="text" class="form-control user_name" name="user_name" id="user_name" placeholder="Enter your user name" aria-describedby="inputGroupPrepend" required>
-            </div>
              <div id="user_name" class="valid-feedback">
                Looks Good!
              </div>
              <div id="user_name" class="invalid-feedback">
                Enter your user name
              </div>
-
+           </div>
          </div>
          <!--user name-->
 
@@ -79,139 +79,57 @@
          <div class="col-6">
            <label for="city" class="form-label">city</label>
            <input type="text" class="form-control city" name="city" id="city" required>
-
-           <div id="city" class="valid-feedback">
-             enter your city name
-           </div>
            <div id="city" class="invalid-feedback">
              Please provide a valid city
            </div>
          </div>
          <!--city-->
 
-         <!--state-->
-         <div class="col-3">
-           <label for="s_tate" class="form-label" >state</label>
-           <select class="form-select" id="s_tate" required>
-            <option selected disabled value>choose....</option>
-            <option>Dhaka</option>
-            <option>khulna</option>
-            <option>CTG</option>
-            <option>Rashsahi</option>
-          </select>
-            <div id="i_feedback" class="invalid-feedback">
-              Please select a valid state.
-            </div>
-         </div>
-         <!--state-->
+               <!--state-->
+               <div class="col-3">
+                 <label for="s_tate" class="form-label" >state</label>
+                   <select class="form-select" id="s_tate" required>
+                      <option selected disabled value>choose....</option>
+                      <option>Dhaka</option>
+                      <option>khulna</option>
+                      <option>CTG</option>
+                      <option>Rashsahi</option>
+                   </select>
+                  <div id="i_feedback" class="invalid-feedback">
+                    Please select a valid state.
+                  </div>
+               </div>
+               <!--state-->
 
-         <!--Zip-->
-         <div class="col-3">
-           <label for="z_ip" class="form-label">Zip</label>
-           <input type="text" class="form-control z_ip" id="z_ip" name="z_ip" required>
-           <div id="z_ip" class="invalid-feedback">
-             Please provide a valid zip.
-           </div>
-         </div>
-         <!--Zip-->
-         <!--check box-->
-         <div class="col-12">
-           <input type="checkbox" class="form-check-input is-invalid" name="check_box" value="" id="check_box" aria-describedby="invalidCheck3Feedback" required>
-           <label for="check_box" class="from-chack-label">Agree to terms and conditions</label>
-           <div class="invalid-feedback" id="check_box">
-             You must agree before submitting.
-           </div>
-         </div>
-         <!--check box-->
-          <!--button-->
-          <div class="col-12">
-            <button class="btn btn-primary" type="submit">submit form</button>
-          </div>
-          <!--button-->
+               <!--Zip-->
+               <div class="col-3">
+                 <label for="z_ip" class="form-label">Zip</label>
+                 <input type="text" class="form-control z_ip" id="z_ip" name="z_ip" required>
+                 <div id="z_ip" class="invalid-feedback">
+                   Please provide a valid zip.
+                 </div>
+               </div>
+               <!--Zip-->
+               <!--check box-->
+               <div class="col-12">
+                 <input type="checkbox" class="form-check-input is-invalid" name="check_box" value="" id="check_box" aria-describedby="invalidCheck3Feedback" required>
+                 <label for="check_box" class="from-chack-label">Agree to terms and conditions</label>
+                 <div class="invalid-feedback" id="check_box">
+                   You must agree before submitting.
+                 </div>
+               </div>
+                  <!--check box-->
+                  <!--button-->
+                <div class="col-12">
+                    <button class="btn btn-primary" type="submit">submit form</button>
+                   </div>
+                </div>
 
+                <!--button-->
       </form>
       <!--form-->
     </div>
-
-    <!--alert-->
-    <section class="service4">
-      <div class="container">
-        <div class="row">
-          <div class="alert alert-primary d-flex align-items-center justify-content-center alert-dismissible fade show "  role="alert">
-             <div>
-               An example alert with an icon
-              
-            </div>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:">
-              <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-            </svg>
-            <button type="button" class="btn-close"  data-bs-dismiss="alert" aria-label="close"></button>
-          </div>
-          
-        </div>
-      </div>
-    </section>
-    <!--alert-->
-
-    <section class="service5">
-      <div class="container">
-        <div class="row">
-
-          <div class="accordion accordion-flush" id="s_5">
-            <!--item-->
-
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="head_One">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tergat1" aria-expanded="false" aria-controls="flush-collapseOne">
-                  Accordion Item #1
-                </button>
-              </h2>
-              <div id="tergat1" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#s_5">
-                <div class="accordion-body">of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </div>
-              </div>
-            </div>
-
-            <!--item2-->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="head_Two">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tergat2" aria-expanded="false" aria-controls="flush-collapseTwo">
-                  Accordion Item #2
-                </button>
-              </h2>
-              <div id="tergat2" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#s_5">
-                <div class="accordion-body">of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </div>
-              </div>
-            </div>
-
-             <!--item3-->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="head_3">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tergat3" aria-expanded="false" aria-controls="flush-collapseTwo">
-                  Accordion Item #3
-                </button>
-              </h2>
-              <div id="tergat3" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#s_5">
-                <div class="accordion-body">of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </div>
-              </div>
-            </div>
-
-             <!--item4-->
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="head_4">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tergat4" aria-expanded="false" aria-controls="flush-collapseTwo">
-                  Accordion Item #4
-                </button>
-              </h2>
-              <div id="tergat4" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#s_5">
-                <div class="accordion-body">of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </div>
-              </div>
-            </div>
-
-
-          </div>
-        </div>
-      </div>
-    </section>
+  </section>
 
     <!--selider-->
     <section class="service6">
